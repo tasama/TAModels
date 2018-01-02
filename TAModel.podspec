@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
   s.name             = "TAModel"  
-  s.version          = "1.0.0"  
-  s.summary          = "NSObject+TAModel"    
+  s.version          = "1.0.1"  
+  s.summary          = "TAModel"    
 
   s.homepage         = "https://github.com/tasama/TAModels"  
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"  
