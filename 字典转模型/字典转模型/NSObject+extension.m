@@ -77,4 +77,15 @@
     return self;
 }
 
++ (NSArray *)initWithArray:(NSArray<NSDictionary *> *)dicts {
+    
+    NSMutableArray *tempArray = @[].mutableCopy;
+    for (NSDictionary *dict in dicts) {
+        
+        id model = [[self alloc] initWithDict:dict];
+        [tempArray addObject:model];
+    }
+    return tempArray.count > 0 ? tempArray.copy : nil;
+}
+
 @end

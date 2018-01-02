@@ -12,6 +12,8 @@
 
 - (instancetype)initWithDict:(NSDictionary *)dict;
 
++ (NSArray * _Nullable)initWithArray:(NSArray <NSDictionary *>* _Nonnull)dicts;
+
 - (NSDictionary *)arrayClass;
 
 @end
